@@ -1,0 +1,124 @@
+* {
+  font-family: "Roboto", "sans-serif";
+  color: rgba(46, 47, 66, 1);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+/* global header */
+.global-header {
+  background: linear-gradient(rgba(231, 233, 252, 1), rgba(255, 255, 255, 1));
+  border-bottom: 1px solid rgba(231, 233, 252, 1);
+  width: 1440px;
+  height: 72px;
+  border: 0px, 0px, 1px, 0px;
+}
+/* main nav */
+
+.main-nav {
+  width: Hug (261px);
+  height: Hug (24px);
+  top: 24px;
+  left: 347px;
+  gap: 40px;
+}
+/* Logo */
+.logo-link {
+  width: Hug (115px);
+  height: Fixed (24px);
+  top: 24px;
+  left: 156px;
+  margin-left: 156px;
+  margin-right: 1169px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.logo-link .web {
+  color: rgba(77, 90, 229, 1);
+  width: 44px;
+  height: 21px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1, 3;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.logo-link .studio {
+  color: rgba(46, 47, 66, 1);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1, 3;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 71px;
+  height: 21px;
+}
+.contact-link {
+  color: red;
+  font-style: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1, 3;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.mailto .contact-link {
+  padding-left: 940px;
+  padding-right: 347px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 153px;
+  height: 24px;
+  top: 24px;
+  left: 940px;
+}
+.tel .contact-link {
+  margin-left: 1133px;
+  margin-right: 156px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 151px;
+  height: 24px;
+  top: 24px;
+  left: 1133px;
+}
+.filter-section {
+  gap: 24px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+.filter-section ul {
+  list-style: none; /* Eliminarea marcării implicită a listei */
+  padding: 0; /* Eliminarea padding-ului implicit al listei */
+  display: flex; /* Transformarea într-un container flexibil */
+  margin-left: 427px;
+}
+.filter-section li {
+  margin-right: 24px;
+  padding: 12px, 24px, 12px, 24px;
+}
+.filter-section button {
+  background: rgba(244, 244, 253, 1);
+  color: rgba(77, 90, 229, 1);
+  width: 60px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  line-height: 3;
+  text-align: center;
+  justify-content: center;
+}
+.filter-section button:hover {
+  background: rgba(64, 75, 191, 1);
+  color: rgba(255, 255, 255, 1);
+}
