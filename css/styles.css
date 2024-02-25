@@ -1,4 +1,3 @@
-/* Stilizare generală pentru întreaga pagină */
 :root {
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
@@ -24,6 +23,16 @@ ul {
 a {
   text-decoration: none;
 }
+
+.container {
+  width: 1200px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* global header */
 .global-header {
   border-bottom: 1px solid var(--cornflower);
@@ -90,93 +99,171 @@ a {
   margin-right: 40px;
 }
 
-/* hero section */
 .hero-section {
-  font-family: Roboto;
-  background-color: rgba(46, 47, 66, 1);
-}
-.hero-section .hero-title {
   display: flex;
-  font-family: Roboto;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 3, 7;
-  letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 1);
-  text-align: center;
-  width: 496px;
-  height: 120px;
-  top: 260px;
-  left: 472px;
+  background: var(--navy-blue);
+  height: 600px;
+  align-items: center;
+  justify-content: center;
 }
+
+.hero-section .hero-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+  justify-content: center;
+  padding: 0px 350px 0 350px;
+}
+
 .hero-section button {
-  background-color: rgba(77, 90, 229, 1);
-  color: rgba(255, 255, 255, 1);
-  margin-left: 636px;
-  margin-left: 635px;
-  margin-bottom: 138px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: var(--iris);
   width: 169px;
   height: 56px;
-  top: 428px;
-  left: 636px;
-  padding: 16px, 32px, 16px, 32px;
   border-radius: 4px;
   border: none;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1, 3;
-  letter-spacing: 0.04em;
+  margin-left: 500px;
 }
-/* feautures section */
+
+/* features-section */
 .features-section {
-  height: 104px;
-  top: 792px;
-  left: 156px;
-  gap: 24px;
-  margin-left: 156px;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
 }
+
+.features-list {
+  gap: 24px;
+}
+
+/* features-list Fonts */
+.features-list p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.features-list-element h3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
 /* doing section */
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navy-blue);
+  padding-bottom: 72px;
+  margin: 0px;
+}
+
 .doing-section {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 72px;
+}
+
+.doing-section ul {
+  gap: 24px;
 }
 /* team section */
 .team-section {
-  height: 732px;
-  top: 1548px;
-  background-color: rgba(244, 244, 253, 1);
-  padding-top: 120px;
-}
-.team-section .title {
-  font-family: Roboto;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.02em;
+  background: var(--cloud);
+  display: flex;
+  justify-content: center;
   text-align: center;
-  padding-top: 72px;
-  padding-top: 120px;
+  height: 732px;
+}
+.title-team {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navy-blue);
+  padding-bottom: 72px;
+  margin: 0px;
 }
 .team-elements {
+  display: flex;
+  justify-content: center;
   gap: 24px;
 }
-/* footer */
-.global-footer {
-  background-color: rgba(46, 47, 66, 1);
-  color: rgba(244, 244, 253, 1);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1, 3;
+.team-member {
+  border-radius: 0px 0px 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: var(--white);
+}
+/* team section fonts */
+.team-member h3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
   letter-spacing: 0.02em;
-  height: 312px;
-  top: 2280px;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.team-member p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--slate);
 }
 
-.logo-link .web-footer {
-  color: rgba(77, 90, 229, 1);
+/* footer section */
+.global-footer {
+  background: var(--navy-blue);
+  height: 312px;
+  padding-left: 156px;
+  padding-top: 100px;
+}
+.global-footer p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+  height: 72px;
+  width: 264px;
+}
+
+.logo-link {
+  display: flex;
+}
+.logo-link-footer .web-footer {
+  color: var(--iris);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -184,8 +271,8 @@ a {
   letter-spacing: 0.03em;
 }
 
-.logo-link .studio-footer {
-  color: rgba(244, 244, 253, 1);
+.logo-link-footer .studio-footer {
+  color: var(--cloud);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
