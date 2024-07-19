@@ -282,14 +282,7 @@ a {
   border-bottom: 8px;
 }
 
-.footer-section {
-  background-color: var(--secondary-color-navy-blue);
-  padding: 100px 0;
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.logo-text-footer {
+.logo-footer {
   font-family: var(--second-font-family);
   font-size: 18px;
   font-weight: 700;
@@ -303,7 +296,14 @@ a {
   color: #f4f4fd;
 }
 
-.footer-text {
+.footer {
+  background-color: var(--secondary-color-navy-blue);
+  padding: 100px 0;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-p {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
