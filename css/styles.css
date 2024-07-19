@@ -88,10 +88,9 @@ a {
   gap: 40px;
 }
 
-.menu-element {
+.header-menu .menu-element {
   padding: 24px 0;
 }
-
 .address {
   font-style: normal;
 }
